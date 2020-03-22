@@ -10,5 +10,4 @@ from django.urls import path,include
 
 urlpatterns = [
     path('',include('travello.urls')),
-    path('me',include('calc.urls')),
 ]
